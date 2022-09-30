@@ -30,11 +30,11 @@ gem 'jbuilder'
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
-gem 'devise'
 gem 'bootstrap', '~> 5.1.3'
+gem 'devise'
+gem 'font-awesome-sass'
 gem 'sass-rails'
-gem "font-awesome-sass"
-    # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
+# Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
