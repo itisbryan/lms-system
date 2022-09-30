@@ -24,6 +24,7 @@ default: &default
 
 development:
   <<: *default
+  database: lms_system_development
 test:
   <<: *default
   database: lms_system_test
