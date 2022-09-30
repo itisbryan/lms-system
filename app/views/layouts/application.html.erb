@@ -6,11 +6,14 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "application", media: 'all'%>
     <%= javascript_importmap_tags %>
   </head>
 
   <body>
+<!--    Where to put alert -->
+<!--    <p class="notice"><%#= notice %></p>-->
+<!--    <p class="alert"><%#= alert %></p>-->
     <%= yield %>
   </body>
 </html>
